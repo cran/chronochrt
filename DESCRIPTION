@@ -1,0 +1,33 @@
+Package: chronochrt
+Title: Creating Chronological Charts with R
+Version: 0.1.0
+Date: 2021-07-26
+Authors@R: 
+    c(person(given = "Thomas",
+           family = "Rose",
+           role = c("aut", "cre"),
+           email = "thomas.rose@daad-alumni.de",
+           comment = c(ORCID = "0000-0002-8186-3566")), 
+     person(given = "Chiara",
+           family = "Girotto",
+           role = c("aut"),
+           email = "chiara.girotto@web.de",
+           comment = c(ORCID = "0000-0001-6412-342X")))
+Description: Easy way to draw chronological charts from tables, aiming to include an intuitive environment for anyone new to R. Includes 'ggplot2' geoms and theme for chronological charts. 
+Language: en-GB
+License: GPL-3
+URL: https://gitlab.com/roset/chronochrt
+BugReports: https://gitlab.com/roset/chronochrt/-/issues
+Imports: dplyr (>= 1.0.0), ggplot2, grid, magick, magrittr, readr,
+        tibble, tidyr, rlang, tidyselect
+Suggests: readxl, testthat, knitr, rmarkdown, covr, vdiffr
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-07-29 17:10:10 UTC; Thomas Rose
+Author: Thomas Rose [aut, cre] (<https://orcid.org/0000-0002-8186-3566>),
+  Chiara Girotto [aut] (<https://orcid.org/0000-0001-6412-342X>)
+Maintainer: Thomas Rose <thomas.rose@daad-alumni.de>
+Repository: CRAN
+Date/Publication: 2021-08-02 08:30:02 UTC
