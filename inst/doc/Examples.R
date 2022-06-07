@@ -17,16 +17,23 @@ library(knitr)
 #  UC_Chronology <- import_chron(path = "ex_urnfield_periods.xlsx",
 #                                 "Region", "Name", "Start", "End", "Level")
 
-## ----Example_UK_hidden, echo=TRUE---------------------------------------------
+## ----Example_UK_hidden, echo=TRUE, message=FALSE------------------------------
 UC_Chronology <- import_chron(path = system.file("extdata/ex_urnfield_periods.xlsx", package = 'chronochrt'),
                                "Region", "Name", "Start", "End", "Level")
 
-## ----Example_UK_plot, echo=TRUE, fig.align='center', fig.width=10, message=FALSE, out.width="100%"----
+## ----Example_UK_plot, eval=FALSE, echo=TRUE-----------------------------------
+#   plot_chronochrt(UC_Chronology,
+#                   axis_title = "BCE",
+#                   size_text = 4,
+#                   line_break = 22,
+#                   filename = "UC-Chronology.png", plot_dim = c(16, 10, "cm"))
+#  
+
+## ----Example_UK_plot2, fig.align='center', fig.width=10, message=FALSE, out.width="100%"----
  plot_chronochrt(UC_Chronology, 
                  axis_title = "BCE", 
                  size_text = 4, 
-                 line_break = 22, 
-                 filename = "UC-Chronology.png", plot_dim = c(16, 10, "cm"))
+                 line_break = 22)
 
 
 ## ----Example_London_hidden, echo=FALSE----------------------------------------

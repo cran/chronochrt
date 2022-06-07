@@ -6,9 +6,12 @@
 <!-- badges: start -->
 
 [![pipeline
-status](https://gitlab.com/roset/chronochrt/badges/master/pipeline.svg)](https://gitlab.com/roset/chronochrt/-/commits/master)
+status](https://gitlab.com/archaeothommy/chronochrt/badges/master/pipeline.svg)](https://gitlab.com/archaeothommy/chronochrt/-/commits/master)
 [![coverage
-report](https://gitlab.com/roset/chronochrt/badges/master/coverage.svg)](https://gitlab.com/roset/chronochrt/-/commits/master)
+report](https://gitlab.com/archaeothommy/chronochrt/badges/master/coverage.svg)](https://gitlab.com/archaeothommy/chronochrt/-/commits/master)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/chronochrt)](https://cran.r-project.org/package=chronochrt)
+[![CRAN_downloads](https://cranlogs.r-pkg.org/badges/grand-total/chronochrt)](https://cran.r-project.org/package=chronochrt)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5154019.svg)](https://doi.org/10.5281/zenodo.5154019)
 <!-- badges: end -->
 
 ChronochRt offers an easy way to draw chronological charts from tables.
@@ -18,21 +21,22 @@ chronological charts.
 
 ## Installation
 
-ChronochRt is currently in the state of beta testing. You can install it
-from gitlab by:
+You can install the released version of ChronochRt from
+[CRAN](https://CRAN.R-project.org) with:
 
 ``` r
- devtools::install_gitlab("roset/chronochrt")
+install.packages("chronochrt")
 ```
 
-and to include the vignette
+or install the development version with the newest bugfixes and features
+from gitlab with:
 
 ``` r
- devtools::install_gitlab("roset/chronochrt", build_vignettes = TRUE)
+ devtools::install_gitlab("archaeothommy/chronochrt")
 ```
 
 Please help us to improve ChronochRt by filing observed bugs as an issue
-[here](mailto:incoming+roset-chronochrt-13993341-issue-@incoming.gitlab.com).
+[here](mailto:incoming+archaeothommy-chronochrt-13993341-issue-@incoming.gitlab.com).
 
 ## Features
 
@@ -60,7 +64,7 @@ Please help us to improve ChronochRt by filing observed bugs as an issue
     [ggplot2](https://ggplot2.tidyverse.org/)
 
 Is there a feature missing? Please let us know
-[here](mailto:incoming+roset-chronochrt-13993341-issue-@incoming.gitlab.com).
+[here](mailto:incoming+archaeothommy-chronochrt-13993341-issue-@incoming.gitlab.com).
 
 ## Example
 
@@ -80,8 +84,8 @@ plot_chronochrt(data)
 
 ## Getting started
 
--   [Cheatsheet](https://gitlab.com/roset/chronochrt/-/raw/master/inst/ChronochRt_Cheatsheet.pdf?inline=false)
--   [Vignettes](https://gitlab.com/roset/chronochrt/-/tree/master/vignettes)
+-   [Cheatsheet](https://gitlab.com/archaeothommy/chronochrt/-/raw/master/inst/ChronochRt_Cheatsheet.pdf?inline=false)
+-   [Vignettes](https://gitlab.com/archaeothommy/chronochrt/-/tree/master/vignettes)
 
 ## Funding for the development of ChronochRt 0.0.5
 
@@ -89,7 +93,7 @@ plot_chronochrt(data)
 <tbody>
 <tr>
 <td valign="bottom">
-<img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg"  width="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"  width="200">
 </td>
 <td valign="bottom" halign="left">
 This project has received funding from the European Union’s Horizon 2020

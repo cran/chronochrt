@@ -19,7 +19,7 @@
 #'   integration in pipes, enhanced customisation with \pkg{ggplot2}}
 #'
 #' @section Getting started: \itemize{ \item
-#'   \href{https://gitlab.com/roset/chronochrt/-/raw/master/inst/ChronochRt_Cheatsheet.pdf?inline=false}{Cheatsheet}
+#'   \href{https://gitlab.com/archaeothommy/chronochrt/-/raw/master/inst/ChronochRt_Cheatsheet.pdf?inline=false}{Cheatsheet}
 #'    \item Vignettes}
 #'
 #'
@@ -29,5 +29,8 @@
 #'
 #'
 #' @importFrom rlang .data
+#' @importFrom magick image_read
+#' @importFrom dplyr mutate case_when across filter if_else arrange group_by ungroup select rename left_join distinct bind_rows
+#' @importFrom tidyr separate pivot_longer drop_na
 
 NULL

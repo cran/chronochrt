@@ -9,7 +9,7 @@ library(ggplot2)
 library(knitr)
 
 ## ----setup, eval=FALSE--------------------------------------------------------
-#  library(rhronochrt)
+#  library(chronochrt)
 
 ## ----plot_structure_data, echo=TRUE, fig.align='center', fig.width=10, message=FALSE, out.width="100%"----
 chrons <- add_chron(
