@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -111,7 +111,7 @@ image <- add_label_image(region = "earlier/later",
 
 plot_chronochrt(data, labels_image = image)
 
-## ---- eval=FALSE, echo=TRUE---------------------------------------------------
+## ----eval=FALSE, echo=TRUE----------------------------------------------------
 #  
 #  plot_chronochrt(chrons, size_chrons = 4, line_break = 20) +
 #    ggplot2::scale_x_continuous(name = NULL, breaks = seq(0, 2, 0.1), minor_breaks = NULL, expand = c(0,0)) +
